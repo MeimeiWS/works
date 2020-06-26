@@ -13,9 +13,9 @@ img {
     position: relative;
 }
 
-/* iframe {
+iframe {
     width: 100%;
-} */
+}
 
 html, body {
     height: 100%;
@@ -44,6 +44,10 @@ main > div {
     grid-template-columns: repeat(1, minmax(0, calc(100% / 1)));
     grid-gap: 20px; gap: 20px; 
     padding: 20px;
+}
+
+.article div {
+    grid-template-columns: repeat(1, minmax(0, calc(100% / 1)));
 }
 
 main h1 {
