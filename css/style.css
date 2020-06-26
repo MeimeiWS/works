@@ -78,10 +78,6 @@ main h1 {
     align-self: center;
 }
 
-main article {
-    /* border-bottom: dashed 1px #000000; */
-}
-
 main article a {
     display: block;
     height: 100%;
